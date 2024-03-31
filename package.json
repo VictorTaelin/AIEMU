@@ -1,0 +1,23 @@
+{
+  "name": "aiemu",
+  "version": "0.1.1",
+  "description": "Claude emulates games",
+  "type": "module",
+  "main": "main.js",
+  "bin": {
+    "aiemu": "main.mjs"
+  },
+  "scripts": {},
+  "keywords": [
+    "cli",
+    "ai",
+    "emulator",
+    "claude-3"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.19.1",
+    "punycode": "^2.3.1"
+  }
+}
